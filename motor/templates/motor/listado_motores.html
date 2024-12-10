@@ -52,17 +52,19 @@
         <table>
             <thead>
                 <tr>
-                    <th>Nombre</th>
+                    <th>marca</th>
                     <th>Potencia</th>
-                    <th>Tipo</th>
+                    <th>año</th>
+                    <th>cilindrada</th>
                 </tr>
             </thead>
             <tbody>
                 {% for motor in motores_v8 %}
                 <tr>
-                    <td>{{ motor.nombre }}</td>
+                   <td>{{ motor.marca}}</td>
                     <td>{{ motor.potencia }}</td>
-                    <td>{{ motor.tipo }}</td>
+                    <td>{{ motor.año }}</td>
+                    <td>{{ motor.cilindrada }}</td>
                 </tr>
                 {% empty %}
                 <tr>
@@ -77,17 +79,19 @@
         <table>
             <thead>
                 <tr>
-                    <th>Nombre</th>
+                    <th>marca</th>
                     <th>Potencia</th>
-                    <th>Tipo</th>
+                    <th>año</th>
+                    <th>cilindrada</th>
                 </tr>
             </thead>
             <tbody>
                 {% for motor in motores_v6 %}
                 <tr>
-                    <td>{{ motor.nombre }}</td>
+                    <td>{{ motor.marca}}</td>
                     <td>{{ motor.potencia }}</td>
-                    <td>{{ motor.tipo }}</td>
+                    <td>{{ motor.año }}</td>
+                    <td>{{ motor.cilindrada }}</td>
                 </tr>
                 {% empty %}
                 <tr>
@@ -102,17 +106,19 @@
         <table>
             <thead>
                 <tr>
-                    <th>Nombre</th>
+                    <th>marca</th>
                     <th>Potencia</th>
-                    <th>Tipo</th>
+                    <th>año</th>
+                    <th>cilindrada</th>
                 </tr>
             </thead>
             <tbody>
                 {% for motor in motores_i4 %}
                 <tr>
-                    <td>{{ motor.nombre }}</td>
+                    <td>{{ motor.marca}}</td>
                     <td>{{ motor.potencia }}</td>
-                    <td>{{ motor.tipo }}</td>
+                    <td>{{ motor.año }}</td>
+                    <td>{{ motor.cilindrada }}</td>
                 </tr>
                 {% empty %}
                 <tr>

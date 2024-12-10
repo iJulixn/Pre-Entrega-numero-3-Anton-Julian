@@ -14,7 +14,7 @@ urlpatterns = [
     path('motores/listadov8/', views.listado_motoresv8, name='listado_motoresv8'),
     path('motores/listadov6/', views.listado_motoresv6, name='listado_motoresv6'),
     path('motores/listadoi4/', views.listado_motoresi4, name='listado_motoresi4'),
-    path('motores/listado/', views.listado_motores, name='listado_motores')
+    path('motores/listado/', views.listado_motores, name='listado_motores'),
     
     
     
